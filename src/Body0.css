@@ -1,0 +1,45 @@
+.bob{
+    width: 100%;
+    height: max-content;
+    background-color: white;
+}
+.stud{
+    color: rgb(49, 49, 111);
+    font-size: 65px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.can{
+    width: 84%;
+}
+.spar{
+    width: 50%;
+}
+@media screen and (max-width:700px) {
+    .can{
+        flex-direction: column;
+    }
+    .spar{
+        width: 80%;
+        margin: auto;
+    }
+    .stud{
+        font-size: 50px;
+    }
+}
+.pictt{
+    width: 100%;
+    height: 100%;
+}
+.nobo{
+    display: none;
+}
+.born{
+    width: 40%;
+    height: max-content;
+}
+.born:hover .nobo{
+    display: block;
+}
+

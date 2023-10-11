@@ -1,13 +1,202 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.bob{
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+.stud{
+  color: rgb(49, 49, 111);
+  font-size: 65px;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pop1{
+  margin-top: 70px;
+  padding-top: 50px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.can{
+  width: 84%;
+}
+.spar{
+  width: 50%;
+}
+@media screen and (max-width:700px) {
+  .can{
+      flex-direction: column;
+  }
+
+  .spar{
+      width: 80%;
+      margin: auto;
+  }
+
+
+  .stud{
+      font-size: 50px;
+  }
+}
+.pictt{
+  width: 100%;
+  height: 100%;
+}
+.nobo{
+  display: none;
+}
+.born{
+  width: 40%;
+  height: max-content;
+}
+.born:hover .nobo{
+  display: block;
+}
+
+.workk{
+  /* height: 1vh; */
+  border: 1px solid rgb(7, 52, 90);
+  width: 90%;
+  border-radius: 10px;
+}
+.man{
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(49, 49, 111);
+}
+.texo{
+  color: rgb(49, 49, 111);
+}
+.pik{
+  width: 30%;
+  margin-bottom: 4%;
+}
+.borna{
+  width: 50%;
+  height: fit-content;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(49, 49, 111);
+}
+.borna:hover .nobo{
+  display: block;
+}
+@media screen and (max-width:700px) {
+  .pik{
+    width: 90%;
+    margin: auto;
+  }
+  .man{
+    font-size: 25px;
+  }
+  .borna{
+    margin-bottom: 6%;
+  }
+}
+
+.broo{
+  border-bottom: 1px solid rgb(49, 49, 111);
+  padding-bottom: 10px;
+}
+.check{
+  color: rgb(49, 49, 111);
+}
+.pok, .pak{
+  width: 48%;
+  height: max-content;
+}
+.orag:hover{
+  color: orange;
+}
+.cardd{
+  width: 100%;
+  height: max-content;
+  border-radius: 30px;
+  border: 1px solid black;
+  align-items: center;
+  /* display: flex; */
+  flex-direction: column;
+  background-color: rgb(220, 191, 135);
+  box-shadow: 7px 3px 10px 5px gray;
+
+}
+
+.cardd1{
+  width: 50%;
+  height: max-content;
+  border-radius: 30px;
+  border: 1px solid black;
+  align-items: center;
+  /* display: flex; */
+  flex-direction: column;
+  background-color: rgb(112, 135, 145);
+  box-shadow: 2px 3px 10px rgb(112, 137, 88);
+
+}
+.cardd2{
+  width: 50%;
+  height: max-content;
+  border-radius: 30px;
+  border: 1px solid black;
+  align-items: center;
+  /* display: flex; */
+  flex-direction: column;
+  background-color: rgb(226, 214, 194);
+  box-shadow: 4px 3px 7px  gray;
+
+}
+.imo{
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 10%;
+  height: 10px;
+  align-self: center;
+  display: flex;
+  /* margin: auto; */
+}
+@media screen and (max-width:700px) {
+  .can{
+    flex-direction: column;
+}
+.pok {
+  width: 100%;
+}
+.pak{
+  width: 100%;
+}
+}
+
+.yop{
+  margin-top: 3%;
+  width: 100%;
+  background: linear-gradient(to right, rgb(147, 95, 104), purple,blue, darkblue);
+  height: max-content;
+}
+
+.midd{
+  width: 80%;
+  margin: auto;
+}
+.yt{
+  width: 40%;
+  padding-top: 4%;
+}
+.ytt{
+  border-radius: 20px;
+}
+.okad{
+  width: 57%;
+  padding-top: 3%;
+}
+.fsa{
+  font-size: 50px;
+  font-weight: bolder;
+}
+@media screen and (max-width:700px) {
+  .midd{
+    flex-direction: column;
+}
+.yt {
+  width: 100%;
+}
+.okad{
+  width: 100%;
+}
 }

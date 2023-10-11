@@ -1,0 +1,53 @@
+.alien{
+    width: 90px;
+    height: max-content;
+}
+.bosss{
+    width: 250%;
+}
+.bgg{
+    background-color: white;
+    box-shadow: 2px 2px 4px gray;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+}
+.mbo{
+    margin-bottom: 1%;
+}
+.active{
+    color: blue;
+}
+.checkk:hover{
+    color: red;
+}
+.stickk{
+    position: sticky;
+    top: 0;
+}
+.noss{
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(49, 47, 47);
+    margin-top: 10%;
+    position: fixed;
+    top: 15%;
+}
+.dol{
+    width: 50px;
+    /* padding: 5px; */
+    border: none;
+}
+.trep{
+    border-top-right-radius: 5px;
+    background-color: rgb(76, 76, 148);
+}
+.step{
+    border-bottom-right-radius: 5px;
+    background-color: skyblue;
+}
+
+.dol:hover{
+    rotate: -10deg;
+}
